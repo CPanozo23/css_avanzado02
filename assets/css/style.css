@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+.hero{
+    display:flex;
+    /*Eje X: HORIZONTAL*/
+    /*justify-content:flex-start; 
+    justify-content:flex-end; 
+    justify-content:space-between; 
+    justify-content:space-around;*/ 
+    justify-content:center; 
+    /*height:800px;*/
+    height: 100vh;
+    /*Eje y: VERTICAL*/
+    /*align-items: flex-start;
+    align-items: center;
+    align-items: stretch;*/
+    align-items: flex-end;
+    /*background-color: crimson;*/
+    background-image: url("../img/surja-sen-das-raj-JOxA00hFvuQ-unsplash.jpg");
+    background-size: cover;
+}
+
+.content {
+    /*width: 25%;*/
+    font-size: 1.4em;
+    font-stretch: expanded;
+    height: 8em;
+    width: 100%;
+    background-color: rgba(15,15,15, 0.6);
+    text-align: center;
+    color:white;
+    text-shadow: 1px 1px #000;
+}
+
